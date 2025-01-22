@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify 
 from flask_cors import CORS
-from api.openai_client import get_or_create_thread, send_message, run_thread, get_response, list_messages, delete_message
+from openai_client import get_or_create_thread, send_message, run_thread, get_response, list_messages, delete_message
 import json
 
 app = Flask(__name__)
